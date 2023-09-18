@@ -5,10 +5,10 @@ stdenv.mkDerivation rec {
   version = "5.05";
 
   src = fetchFromGitHub {
-    owner = "eyJhb";
-    repo = "sl";
+    owner = "Comodaino";
+    repo = "clearsl";
     rev = version;
-    sha256 = "11a1rdgb8wagikhxgm81g80g5qsl59mv4qgsval3isykqh8729bj";
+    sha256 = "";
   };
 
   buildInputs = [ ncurses ];
